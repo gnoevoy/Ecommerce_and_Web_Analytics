@@ -50,7 +50,7 @@ GROUP BY 1, 2, 3;
 
 # Task 3
 # Calculate a monthly trend analysis for 'gsearch,' and ensure it's separated into non-brand and brand campaigns.
-
+	
 SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name, MONTH(s.created_at) AS month, utm_campaign,
 	COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
     COALESCE(SUM((price_usd - cogs_usd) * items_purchased), 0) AS profit
