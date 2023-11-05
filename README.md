@@ -42,7 +42,9 @@ Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](h
 - [Project Repository](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics)
 
 ### Contacts
-
+- gnoevoyandrey044@gmail.com
+- [github](https://github.com/gnoevoy)
+- [linkedin](https://www.linkedin.com/in/andreygnoevoy/)
 
 
 
