@@ -8,7 +8,6 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 2. Provide extracted insight to visual graphs as accessible as possible to stakeholders.
 
 </br>
-</br>
 
 #### Task 1
 Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
