@@ -1,6 +1,6 @@
-![Frame 17](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/76dd365a-6c1b-4624-bbbd-0d921e7b4d97)
+![project_cover](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/23e5a5fd-18d6-4131-acad-17ac3a56c6a4)
 This project focused on Maven Fuzzy Factory, a thriving online store specializing in toy sales. As a Data Analyst, my mission was to provide valuable insights to stakeholders and help to make data-driven decisions that benefit the business based on available data.
-# Ecommerce and Web Analytics
+
 </br>
 
 ## Website Performance and Traffic Sources Analysis
