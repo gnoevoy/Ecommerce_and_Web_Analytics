@@ -9,8 +9,9 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 
 </br>
 
-> **Time period for analysis**
-> Since March 19 to November 11 (2012 year)
+> **Note**
+> **Time period for analysis** - since March 19 to November 11 (2012 year)
+</br>
 > **Conversion rate** – a measure that shows of how many people make an order, compared to the total number of visitors. **Conversion Rate = (Total Orders / Total Sessions) * 100**
 
 
