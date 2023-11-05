@@ -22,7 +22,7 @@ Furthermore, it would be better to highlight the top traffic source from which w
 > **Note**
 > **Conversion rate** – a measure that shows of how many people make an order, compared to the total number of visitors.
 > </br>
-> **Conversion Rate = (Total Orders / Total Sessions) * 100**
+> **Conversion Rate** = (Total Orders / Total Sessions) * 100
 
 ```sql
 # Task 1
@@ -185,6 +185,11 @@ For the landing page test you analyse previously, show a full conversation funne
 
 ![website_performance_and_traffic_sources_pages-to-jpg-0007](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/91f4aa40-3c44-4ecd-b776-da93edae7cd6)
 
+> **Note**
+> **Conversion funnel** – a series of steps that a user takes to complete a purchase on a website or app. The goal is to guide users through the funnel and maximize the number of successful conversions.
+> </br>
+> **Conversion Funnel Rate** = (Current page sessions / Previous page sessions) * 100
+
 ```sql
 # Task 7
 # Calculate a comprehensive conversion funnel from each of the two pages to orders (home and lander-1).
@@ -248,6 +253,11 @@ FROM conversion_funnel;
 Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
 
 ![website_performance_and_traffic_sources_pages-to-jpg-0008](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d54bc0fb-d86b-4c0b-9d5b-352608310ada)
+
+> **Note**
+> **Bounce rate** – a metric that measures the percentage of visitors who land on a website or a specific page and then leave the site without interacting with it further.
+> </br>
+> **Bounce Rate** = (Number of single-page sessions) / (Total sessions) * 100
 
 ```sql
 # Task 8
