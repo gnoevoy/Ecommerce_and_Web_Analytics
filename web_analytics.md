@@ -68,6 +68,7 @@ WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch'
 GROUP BY 1, 2, 3;
 ```
 
+</br>
 
 #### Task 3
 Provide a similar monthly trend for 'gserach', but this time splitting out nonbrand and brand campaigns separately.
@@ -89,6 +90,7 @@ WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign IN
 GROUP BY 1, 2, 3, 4;
 ```
 
+</br>
 
 #### Task 4
 Explore the 'nonbrand' category and extract monthly trends categorized by device type.
@@ -110,6 +112,7 @@ WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign = 
 GROUP BY 1, 2, 3, 4;
 ```
 
+</br>
 
 #### Task 5
 Present monthly trends with conversion rate for “gsearch” alongside monthly trends for each of other channels.
@@ -131,6 +134,7 @@ WHERE s.created_at < '2012-11-27'
 GROUP BY 1, 2, 3, 4;
 ```
 
+</br>
 
 #### Task 6
 This summer (June 19 - July 28), It was conducted an A/B test for our homepage. Display the test results for “gsearch nonbrand”, showing how much money was earned in comparison to the original main homepage.
@@ -166,6 +170,7 @@ FROM homepage_test
 GROUP BY 1;
 ```
 
+</br>
 
 #### Task 7
 For the landing page test you analyse previously, show a full conversation funnel from each of the two pages to orders. Hint: use the same time period as in task 6.
@@ -229,6 +234,7 @@ SELECT pageview_url,
 FROM conversion_funnel;
 ```
 
+</br>
 
 #### Task 8
 Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
@@ -271,6 +277,7 @@ WHERE pageview_url IN ('/home', '/lander-1')
 GROUP BY 1;
 ```
 
+</br>
 
 #### Task 9
 Provide the results of the A/B test for the billing page, conducted from September 10 - November 10. The "Revenue per click" metric for 'gsearch nonbrand' is especially interesting.
