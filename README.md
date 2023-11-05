@@ -15,3 +15,8 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 </br>
 
 > All assignments follow a consistent structure, making it convenient to review all the key elements in one place. Ensures easy understanding of each assignments context, objectives, results, and utilized Power BI report screenshots and SQL queries snippets.
+
+![database schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a2c69aae-9bb1-4e06-833d-2669de26cac9)
+
+
+
