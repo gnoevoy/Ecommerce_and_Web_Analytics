@@ -23,7 +23,7 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 
 ![database schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a2c69aae-9bb1-4e06-833d-2669de26cac9)
 
-**Table's descriptions**
+### Table's descriptions
 - ***website_sessions:** Records user sessions on the website, including details like session creation time, user references, repeat session flags, and information on the source and device type used by the visitor.*
 - ***website_pageviews:** This table keeps track of user interactions with your website, storing the date and time of pageviews along with the URL of the viewed pages.*
 - ***orders:** The orders table stores information about customer orders, such as creation date, associated user, purchased items, total price, and COGS.*
