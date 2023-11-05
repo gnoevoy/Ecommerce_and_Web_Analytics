@@ -1,13 +1,13 @@
 # Customers and Products Analysis
 
-## Context
+### Context
 The recently appointed manager has requested an overview with key metrics of the company's products and customers for the previous and current years. As a Data Analyst, I was tasked with conducting exploratory analysis and present insights as a mini-report.
 
-## My responsibilities.
+### My responsibilities.
 1. Extracting the necessary data from the database and conducting exploratory data analysis.
 2. Creating a visually informative report using data visualization tools.
 
-## Objective
+### Objective
 The goal is to provide information that will assist the new manager in gaining a better understanding of the company's operations and making informed decisions.
 
 </br>
