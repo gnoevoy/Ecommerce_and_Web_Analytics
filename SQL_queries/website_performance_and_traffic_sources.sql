@@ -38,8 +38,8 @@ GROUP BY 1, 2, 3;
 # Calculate and present the monthly trends for sessions, orders, and profit from the "gsearch" traffic source to demonstrate its growth.
 
 SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name,
-	MONTH(s.created_at) AS month_num,
-	COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    MONTH(s.created_at) AS month_num,
+    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
 LEFT JOIN orders AS o 
