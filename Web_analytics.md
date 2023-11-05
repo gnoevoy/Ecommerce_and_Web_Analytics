@@ -20,7 +20,7 @@ Furthermore, it would be better to highlight the top traffic source from which w
 > **Note**
 > **Time period for analysis** - since March 19 to November 11 (2012 year)
 
-![website_performance_and_traffic_sources_pages-to-jpg-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/ca01b0b5-c070-4be2-98d8-abfc023d9e21)
+![website_performance_and_traffic_sources_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/e0d9da39-66d6-4ada-8f48-f174fc54a84e)
 
 > **Note**
 > **Conversion rate** – a measure that shows of how many people make an order, compared to the total number of visitors.
@@ -62,7 +62,7 @@ GROUP BY 1, 2, 3;
 #### Task 2
 Display months trends for “gsearch” traffic source sessions, orders and profit, so that showcase the growth here.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/95889627-d290-44f9-8bc3-ad6704b181ff)
+![website_performance_and_traffic_sources_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/7621e57a-6338-4880-8390-e32df8b39c17)
 
 ```sql
 # Task 2
@@ -84,7 +84,7 @@ GROUP BY 1, 2, 3;
 #### Task 3
 Provide a similar monthly trend for 'gserach', but this time splitting out nonbrand and brand campaigns separately.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/fc959b97-8cb5-427d-9b2b-47d181202591)
+![website_performance_and_traffic_sources_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/6accc932-ae17-40c5-bb2c-9b86f9b44265)
 
 ```sql
 # Task 3
@@ -106,7 +106,7 @@ GROUP BY 1, 2, 3, 4;
 #### Task 4
 Explore the 'nonbrand' category and extract monthly trends categorized by device type.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/3b079eda-374f-4216-aaba-f9fb42fd0fb6)
+![website_performance_and_traffic_sources_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a9952a4c-2914-412c-b9ce-27c92c1fb8af)
 
 ```sql
 # Task 4
@@ -128,7 +128,7 @@ GROUP BY 1, 2, 3, 4;
 #### Task 5
 Present monthly trends with conversion rate for “gsearch” alongside monthly trends for each of other channels.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/15e1d67b-4c7a-464c-a5cc-3715069edb89)
+![website_performance_and_traffic_sources_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/84b68847-90f7-43bd-85cf-dc322e4c2c64)
 
 ```sql
 # Task 5
@@ -150,7 +150,7 @@ GROUP BY 1, 2, 3, 4;
 #### Task 6
 This summer (June 19 - July 28), It was conducted an A/B test for our homepage. Display the test results for “gsearch nonbrand”, showing how much money was earned in comparison to the original main homepage.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/c820f0f8-24d1-4042-9f9b-40f3d8c88b27)
+![website_performance_and_traffic_sources_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2472b2bf-3d0c-43d0-a45e-9a7d863c23b0)
 
 ```sql
 # Task 6
@@ -186,7 +186,7 @@ GROUP BY 1;
 #### Task 7
 For the landing page test you analyse previously, show a full conversation funnel from each of the two pages to orders. Hint: use the same time period as in task 6.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0007](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/91f4aa40-3c44-4ecd-b776-da93edae7cd6)
+![website_performance_and_traffic_sources_page-0007](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a94a3011-ae17-4eda-9b71-3087f83237f6)
 
 > **Note**
 > **Conversion funnel** – a series of steps that a user takes to complete a purchase on a website or app. The goal is to guide users through the funnel and maximize the number of successful conversions.
@@ -255,7 +255,7 @@ FROM conversion_funnel;
 #### Task 8
 Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0008](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d54bc0fb-d86b-4c0b-9d5b-352608310ada)
+![website_performance_and_traffic_sources_page-0008](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/db04e9b0-2883-47a9-81ce-9a01d2d58151)
 
 > **Note**
 > **Bounce rate** – a metric that measures the percentage of visitors who land on a website or a specific page and then leave the site without interacting with it further.
@@ -303,7 +303,7 @@ GROUP BY 1;
 #### Task 9
 Provide the results of the A/B test for the billing page, conducted from September 10 - November 10. The "Revenue per click" metric for 'gsearch nonbrand' is especially interesting.
 
-![website_performance_and_traffic_sources_pages-to-jpg-0009](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/ae8c4299-1de4-4865-b9d0-574ea122a097)
+![website_performance_and_traffic_sources_page-0009](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/c0a251d5-412a-4b1c-8476-2d063abe25fc)
 
 ```sql
 # Task 9
