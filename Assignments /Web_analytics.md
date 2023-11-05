@@ -1,4 +1,4 @@
-## Website Performance and Traffic Sources Analysis
+# Website Performance and Traffic Sources Analysis
 
 ### Context
 Maven Fuzzy Factory has been living for about 8 months, and my CEO have to present company performance and growth to the board next week. As a Data Analyst, I was tasked with preparing relevant metrics and graphs for presentation.
@@ -12,7 +12,7 @@ Analyse website data and transform it into visually accessible metrics and graph
 
 </br>
 
-#### Task 1
+### Task 1
 Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
 
 Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
@@ -59,7 +59,7 @@ GROUP BY 1, 2, 3;
 
 </br>
 
-#### Task 2
+### Task 2
 Display months trends for “gsearch” traffic source sessions, orders and profit, so that showcase the growth here.
 
 ![website_performance_and_traffic_sources_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/7621e57a-6338-4880-8390-e32df8b39c17)
@@ -81,7 +81,7 @@ GROUP BY 1, 2, 3;
 
 </br>
 
-#### Task 3
+### Task 3
 Provide a similar monthly trend for 'gserach', but this time splitting out nonbrand and brand campaigns separately.
 
 ![website_performance_and_traffic_sources_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/6accc932-ae17-40c5-bb2c-9b86f9b44265)
@@ -103,7 +103,7 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-#### Task 4
+### Task 4
 Explore the 'nonbrand' category and extract monthly trends categorized by device type.
 
 ![website_performance_and_traffic_sources_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a9952a4c-2914-412c-b9ce-27c92c1fb8af)
@@ -125,7 +125,7 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-#### Task 5
+### Task 5
 Present monthly trends with conversion rate for “gsearch” alongside monthly trends for each of other channels.
 
 ![website_performance_and_traffic_sources_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/84b68847-90f7-43bd-85cf-dc322e4c2c64)
@@ -147,7 +147,7 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-#### Task 6
+### Task 6
 This summer (June 19 - July 28), It was conducted an A/B test for our homepage. Display the test results for “gsearch nonbrand”, showing how much money was earned in comparison to the original main homepage.
 
 ![website_performance_and_traffic_sources_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2472b2bf-3d0c-43d0-a45e-9a7d863c23b0)
@@ -183,7 +183,7 @@ GROUP BY 1;
 
 </br>
 
-#### Task 7
+### Task 7
 For the landing page test you analyse previously, show a full conversation funnel from each of the two pages to orders. Hint: use the same time period as in task 6.
 
 ![website_performance_and_traffic_sources_page-0007](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a94a3011-ae17-4eda-9b71-3087f83237f6)
@@ -252,7 +252,7 @@ FROM conversion_funnel;
 
 </br>
 
-#### Task 8
+### Task 8
 Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
 
 ![website_performance_and_traffic_sources_page-0008](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/db04e9b0-2883-47a9-81ce-9a01d2d58151)
@@ -300,7 +300,7 @@ GROUP BY 1;
 
 </br>
 
-#### Task 9
+### Task 9
 Provide the results of the A/B test for the billing page, conducted from September 10 - November 10. The "Revenue per click" metric for 'gsearch nonbrand' is especially interesting.
 
 ![website_performance_and_traffic_sources_page-0009](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/c0a251d5-412a-4b1c-8476-2d063abe25fc)
