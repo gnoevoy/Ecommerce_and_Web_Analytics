@@ -12,26 +12,17 @@ The goal is to provide information that will assist the new manager in gaining a
 
 
 
-![customers_and_products_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/1e562aa6-e8fb-4b24-9c4f-fcd0d1ffe6e3)
+![source_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2ddda8e9-8e89-44c4-b3de-29817cc4cb07)
 
+![source_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/12ba5834-11ba-466a-a9d8-c65bb352db0f)
 
-![customers_and_products_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/033c2d80-d97d-4f6d-b4f9-ad884655052c)
+![source_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a5fd2058-20f0-4438-8540-b1b4ed0c3a4e)
 
+![source_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/568e8fda-4f1e-4699-a574-d8cb2dcd5edb)
 
-![customers_and_products_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/95a76bce-c264-4ff0-99b9-7b97ffb6a395)
+![source_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d2fdc409-1ec6-4b1c-a18c-8d887ca87f8c)
 
-
-![customers_and_products_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/18214ec8-7d38-4bfd-a581-318bb6271ea6)
-
-
-![customers_and_products_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/c89a6258-eba6-406c-94d7-ae96136b4d54)
-
-
-![customers_and_products_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d15de749-0543-41d6-b3dc-d62210762592)
-
-
-
-
+![source_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/64f2a992-0da9-4b2c-9ec9-8241d6054556)
 
 
 
