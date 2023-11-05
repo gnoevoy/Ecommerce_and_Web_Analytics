@@ -38,7 +38,7 @@ Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](h
 ### Data Sources
 - [Maven Fuzzy Factory dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/2fa888167f5963448ca7a2726818c98533371265/MavenFuzzyFactory_dataset.zip)
 - [SQL queries](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/tree/2fa888167f5963448ca7a2726818c98533371265/SQL_queries)
-- [Power BI reports](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/2fa888167f5963448ca7a2726818c98533371265/Power_BI_reports.zip)
+- [Power BI reports](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Power_BI_reports.zip)
 - [Project Repository](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics)
 
 ### Contacts
