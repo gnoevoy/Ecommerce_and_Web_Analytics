@@ -9,6 +9,12 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 
 </br>
 
+> [!Time period for analysis]
+> Since March 19 to November 11 (2012 year)
+
+> [!Conversion rate]
+> A measure that shows of how many people make an order, compared to the total number of visitors. Conversion Rate = (Total Orders / Total Sessions) * 100
+
 #### Task 1
 Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
 
