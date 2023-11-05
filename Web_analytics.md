@@ -7,6 +7,9 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 1. Based on CEO request and wishes, extract and analyse website traffic and performance data from database.
 2. Provide extracted insight to visual graphs as accessible as possible to stakeholders.
 
+### Objective
+Analyse website data and transform it into visually accessible metrics and graphs that enable the CEO to showcase the company's performance and growth to the board.
+
 </br>
 
 #### Task 1
