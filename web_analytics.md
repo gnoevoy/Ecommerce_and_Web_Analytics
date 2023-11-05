@@ -45,6 +45,7 @@ WHERE s.created_at < '2012-11-27'
 GROUP BY 1, 2, 3;
 ```
 
+</br>
 
 #### Task 2
 Display months trends for “gsearch” traffic source sessions, orders and profit, so that showcase the growth here.
