@@ -19,7 +19,7 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 </br>
 
 ## Database Overview
-Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/8a0ce89a13c56be9a0c7334e1d5686c96f77be58/MavenFuzzyFactory_dataset.zip) that provides all the essential information for running a successful online toy store.
+Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/MavenFuzzyFactory_dataset.zip) that provides all the essential information for running a successful online toy store.
 
 ![database schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a2c69aae-9bb1-4e06-833d-2669de26cac9)
 
