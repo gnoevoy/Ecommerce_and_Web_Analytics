@@ -11,6 +11,7 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 
 #### Task 1
 Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
+
 Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
 
 ![website_performance_and_traffic_sources_pages-to-jpg-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/ca01b0b5-c070-4be2-98d8-abfc023d9e21)
