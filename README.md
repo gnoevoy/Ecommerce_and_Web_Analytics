@@ -3,10 +3,10 @@ This project focused on Maven Fuzzy Factory, a thriving online store specializin
 
 </br>
 
-## Website Performance and Traffic Sources Analysis
+[## Website Performance and Traffic Sources Analysis](#your-link-target)
 In the first assignment, I helped to prepare a crucial presentation for the company's board, analysing website performance data.
 
-## Customers and Products Analysis
+[## Customers and Products Analysis](#your-link-target)
 In the second assignment, my analysis provided key metrics to support decision-making for a new manager.
 
 </br>
