@@ -7,8 +7,8 @@ In the first assignment, I helped to prepare a crucial presentation for the comp
 ## Customers and Products Analysis
 In the second assignment, my analysis provided key metrics to support decision-making for a new manager.
 
-All assignments follow a consistent structure, making it convenient to review all the key elements in one place.
-- Assignment context and goal
-- Task description
-- Power BI report screenshot
-- SQL code snippet
+> All assignments follow a consistent structure, making it convenient to review all the key elements in one place.
+> - Assignment context and goal
+> - Task description
+> - Power BI report screenshot
+> - SQL code snippet
