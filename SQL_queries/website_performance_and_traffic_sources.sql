@@ -12,7 +12,7 @@ SELECT * FROM website_sessions;
 # Key metrics
 
 SELECT COALESCE(utm_source, 'direct') AS utm_source,
-COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(s.website_session_id) AS conversion_rate,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
@@ -24,7 +24,7 @@ GROUP BY 1;
 # Trend Analysis
 
 SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name, MONTH(s.created_at) AS month_num,
-COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(s.website_session_id) AS conversion_rate,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
