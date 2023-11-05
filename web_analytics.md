@@ -7,8 +7,10 @@ Maven Fuzzy Factory has been living for about 8 months, and my CEO have to prese
 1. Based on CEO request and wishes, extract and analyse website traffic and performance data from database.
 2. Provide extracted insight to visual graphs as accessible as possible to stakeholders.
 
+
 #### Task 1
 Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
+Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
 
 ```sql
 # Task 1
@@ -40,6 +42,9 @@ WHERE s.created_at < '2012-11-27'
 GROUP BY 1, 2, 3;
 ```
 
+#### Task 2
+Display months trends for “gsearch” traffic source sessions, orders and profit, so that showcase the growth here.
+
 ```sql
 # Task 2
 # Calculate and present the monthly trends for sessions, orders, and profit from the "gsearch" traffic source to demonstrate its growth.
@@ -54,6 +59,9 @@ ON s.website_session_id = o.website_session_id
 WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch'
 GROUP BY 1, 2, 3;
 ```
+
+#### Task 3
+Provide a similar monthly trend for 'gserach', but this time splitting out nonbrand and brand campaigns separately.
 
 ```sql
 # Task 3
@@ -70,6 +78,9 @@ WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign IN
 GROUP BY 1, 2, 3, 4;
 ```
 
+#### Task 4
+Explore the 'nonbrand' category and extract monthly trends categorized by device type.
+
 ```sql
 # Task 4
 # Calculate monthly trends for the 'nonbrand' category, segmented by device type.
@@ -85,6 +96,9 @@ WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign = 
 GROUP BY 1, 2, 3, 4;
 ```
 
+#### Task 5
+Present monthly trends with conversion rate for “gsearch” alongside monthly trends for each of other channels.
+
 ```sql
 # Task 5
 # Calculate monthly conversion rate trends for 'gsearch' and also generate monthly trends for each of our other channels.
@@ -99,6 +113,9 @@ ON s.website_session_id = o.website_session_id
 WHERE s.created_at < '2012-11-27'
 GROUP BY 1, 2, 3, 4;
 ```
+
+#### Task 6
+This summer (June 19 - July 28), It was conducted an A/B test for our homepage. Display the test results for “gsearch nonbrand”, showing how much money was earned in comparison to the original main homepage.
 
 ```sql
 # Task 6
@@ -128,6 +145,9 @@ SELECT pageview_url,
 FROM homepage_test
 GROUP BY 1;
 ```
+
+#### Task 7
+For the landing page test you analyse previously, show a full conversation funnel from each of the two pages to orders. Hint: use the same time period as in task 6.
 
 ```sql
 # Task 7
@@ -186,6 +206,9 @@ SELECT pageview_url,
 FROM conversion_funnel;
 ```
 
+#### Task 8
+Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
+
 ```sql
 # Task 8
 # Calculate the comparison of bounce rates for the main homepage and 'lander-1' test
@@ -221,6 +244,9 @@ ON s.website_session_id = b.website_session_id
 WHERE pageview_url IN ('/home', '/lander-1')
 GROUP BY 1;
 ```
+
+#### Task 9
+Provide the results of the A/B test for the billing page, conducted from September 10 - November 10. The "Revenue per click" metric for 'gsearch nonbrand' is especially interesting.
 
 ```sql
 # Task 9
