@@ -16,7 +16,7 @@ The goal is to provide information that will assist the new manager in gaining a
 
 </br>
 
-**Comprehensive Customer Insights**
+#### Comprehensive Customer Insights
 Gain a deep understanding of customer types, including their impact on sessions, orders, conversion rates, revenue, by devices and traffic sources during a specific time period.
 
 ![source_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2ddda8e9-8e89-44c4-b3de-29817cc4cb07)
@@ -51,7 +51,7 @@ GROUP BY 1, 2, 3, 4, 5, 6, 7;
 
 </br>
 
-**Orders and Sessions Patterns by Day and Time**
+#### Orders and Sessions Patterns by Day and Time
 Explore into the data to reveal the patterns in the number of orders and sessions across the days of the week and various times of the day.
 
 ![source_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/12ba5834-11ba-466a-a9d8-c65bb352db0f)
@@ -83,7 +83,7 @@ ORDER BY 1 ASC;
 
 </br>
 
-**Average Time to the Next Order**
+#### Average Time to the Next Order
 Calculate the average time it takes for users in repeated sessions to place their next order.
 
 ![source_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a5fd2058-20f0-4438-8540-b1b4ed0c3a4e)
@@ -116,7 +116,7 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-**Essential Product Stats**
+#### Essential Product Stats
 Provide an overview of key product metrics, including quantity, profit, and refunds, within a specific date range.
 
 ![source_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/568e8fda-4f1e-4699-a574-d8cb2dcd5edb)
@@ -149,7 +149,7 @@ GROUP BY 1, 2, 3, 4, 5;
 
 </br>
 
-**Single Items vs Multiple**
+#### Single Items vs Multiple
 Examine the trends in single-product orders versus orders with multiple items over time.
 
 ![source_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d2fdc409-1ec6-4b1c-a18c-8d887ca87f8c)
@@ -167,7 +167,7 @@ GROUP BY 1, 2, 3, 4, 5;
 
 </br>
 
-**Products That Go Hand in Hand**
+#### Products That Go Hand in Hand
 Discover which items are commonly bought together during a specific time period.
 
 ![source_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/64f2a992-0da9-4b2c-9ec9-8241d6054556)
