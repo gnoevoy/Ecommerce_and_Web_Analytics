@@ -12,6 +12,10 @@ The goal is to provide information that will assist the new manager in gaining a
 
 </br>
 
+### Customers Analysis
+
+</br>
+
 ![source_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2ddda8e9-8e89-44c4-b3de-29817cc4cb07)
 
 ```sql
@@ -96,6 +100,10 @@ SELECT YEAR(created_at) AS year, QUARTER(created_at) AS quarter,
 FROM source_table
 GROUP BY 1, 2, 3, 4;
 ```
+
+</br>
+
+### Customers Analysis
 
 </br>
 
