@@ -31,3 +31,9 @@ Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](h
 - ***products:** This table holds data for various products in your e-commerce store, including their names and creation dates.*
 - ***order_item_refunds:** This table records refunds for individual items in orders, with information such as refund amount, creation date, and references to the specific order item and order.*
 
+</br>
+
+## Additional Information and Links
+
+### Data Sources
+- 
