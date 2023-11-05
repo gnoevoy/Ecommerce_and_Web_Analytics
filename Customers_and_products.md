@@ -1,4 +1,4 @@
-## Report Preparation for the New Manager
+## Customers and Products Analysis
 
 ### Context
 The recently appointed manager has requested an overview with key metrics of the company's products and customers for the previous and current years. As a Data Analyst, I was tasked with conducting exploratory analysis and present insights as a mini-report.
