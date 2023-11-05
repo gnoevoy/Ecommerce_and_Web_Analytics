@@ -14,6 +14,7 @@ Showcase the key metrics for the year, such as the total number of sessions and 
 
 Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
 
+> **Note**
 > **Time period for analysis** - since March 19 to November 11 (2012 year)
 > </br>
 > **Conversion rate** – a measure that shows of how many people make an order, compared to the total number of visitors.
