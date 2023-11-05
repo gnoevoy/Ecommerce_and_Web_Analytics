@@ -14,8 +14,6 @@ The goal is to provide information that will assist the new manager in gaining a
 
 ## Customers Analysis
 
-</br>
-
 ### Comprehensive Customer Insights
 Gain a deep understanding of customer types, including their impact on sessions, orders, conversion rates, revenue, by devices and traffic sources during a specific time period.
 
@@ -113,8 +111,6 @@ GROUP BY 1, 2, 3, 4;
 </br>
 
 ## Products Analysis
-
-</br>
 
 ### Essential Product Stats
 Provide an overview of key product metrics, including quantity, profit, and refunds, within a specific date range.
