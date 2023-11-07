@@ -192,4 +192,9 @@ GROUP BY 1, 2, 3, 4
 ORDER BY primary_product_id ASC, order_profit DESC;
 ```
 
+</br>
+
+### Navigation links
+- [Web analytics](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md)
+- [README.md](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/README.md)
 
