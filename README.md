@@ -5,7 +5,7 @@ This project focused on Maven Fuzzy Factory, a thriving online store specializin
 </br>
 
 # Website Performance and Traffic Sources Analysis
-In [the first assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Web_analytics.md), I helped to prepare a crucial presentation for the company's board, analysing website performance data. [Read More ➡️](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Web_analytics.md)
+In [the first assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Web_performance_and_traffic.md), I helped to prepare a crucial presentation for the company's board, analysing website performance data. [Read More ➡️](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Web_analytics.md)
 
 </br>
 
