@@ -339,7 +339,7 @@ GROUP BY 1;
 
 ### Navigation links
 - [Customers and Products Analysis](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md)
-- [README.md](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/f8b1e34ba152823b3bf902d871460ee2a1444252/README.md)
+- [README.md](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/README.md)
 
 
 
