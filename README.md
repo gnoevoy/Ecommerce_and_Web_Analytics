@@ -25,6 +25,7 @@ Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https:/
 
 ### Table's descriptions
 - ***website_sessions:** Records user sessions on the website, including details like session creation time, user references, repeat session flags, and information on the source and device type used by the visitor.*
+
 - ***website_pageviews:** This table keeps track of user interactions with your website, storing the date and time of pageviews along with the URL of the viewed pages.*
 - ***orders:** The orders table stores information about customer orders, such as creation date, associated user, purchased items, total price, and COGS.*
 - ***order_items:** This table contains details about items within orders, including item-specific data like price, cost of goods sold (COGS), and a reference to the parent order.*
