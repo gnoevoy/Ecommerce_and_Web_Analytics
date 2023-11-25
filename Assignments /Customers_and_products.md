@@ -4,7 +4,7 @@
 The recently appointed manager has requested an overview with key metrics of the company's products and customers for the previous and current years. As a Data Analyst, I was tasked with conducting research and presenting the insights in the form of a mini-report.
 
 ### My responsibilities.
-1. Extracting the necessary data from the database and conducting exploratory data analysis.
+1. Extracting the necessary data from the database and conducting research on my own.
 2. Creating a visually informative report using data visualization tools.
 
 ### Objective
