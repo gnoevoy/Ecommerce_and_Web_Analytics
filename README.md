@@ -1,6 +1,6 @@
 ![cover](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/f26f5eb5-874b-4951-ac88-dca7ea77a083)
 
-This project focused on Maven Fuzzy Factory, a thriving online store specializing in toy sales. As a Data Analyst, my mission was to provide valuable insights to stakeholders and help to make data-driven decisions that benefit the business based on available data.
+This project focused on Fuzzy Factory, a thriving online store specializing in toy sales. As a Data Analyst, my mission was to provide valuable insights to stakeholders and help to make data-driven decisions that benefit the business based on available data.
 
 </br>
 
@@ -19,7 +19,7 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 </br>
 
 ## Database Overview
-Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/MavenFuzzyFactory_dataset.zip) that provides all the essential information for running a successful online toy store.
+Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/MavenFuzzyFactory_dataset.zip) that provides all the essential information for running a successful online toy store.
 
 ![database schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a2c69aae-9bb1-4e06-833d-2669de26cac9)
 
@@ -36,7 +36,7 @@ Maven Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](h
 ## Additional Information and Links
 
 ### Data Sources
-- [Maven Fuzzy Factory dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/MavenFuzzyFactory_dataset.zip)
+- [Fuzzy Factory dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/MavenFuzzyFactory_dataset.zip)
 - [SQL queries](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/tree/main/SQL_queries)
 - [Power BI reports](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Power_BI_reports.zip)
 - [Project Repository](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics)
