@@ -10,7 +10,7 @@ In [the first assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics
 </br>
 
 # Customers and Products Analysis
-In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md), I conducted exploratory analysis to assist the new manager in making informed decisions. [Read More ➡️](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md)
+In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md), I conducted an analysis to assist the new manager in making informed decisions. [Read More ➡️](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md)
 
 </br>
 
