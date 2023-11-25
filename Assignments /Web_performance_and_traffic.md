@@ -1,7 +1,7 @@
 # Website Performance and Traffic Sources Analysis
 
 ### Context
-Maven Fuzzy Factory has been living for about 8 months, and my CEO have to present company performance and growth to the board next week. As a Data Analyst, I was tasked with preparing relevant metrics and graphs for presentation.
+Fuzzy Factory has been living for about 8 months, and my CEO have to present company performance and growth to the board next week. As a Data Analyst, I was tasked with preparing relevant metrics and graphs for presentation.
 
 ### My responsibilities.
 1. Based on CEO request and wishes, extract and analyse website traffic and performance data from database.
@@ -35,7 +35,8 @@ Furthermore, it would be better to highlight the top traffic source from which w
 # Key metrics
 
 SELECT COALESCE(utm_source, 'direct') AS utm_source,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(s.website_session_id) AS conversion_rate,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
@@ -46,8 +47,11 @@ GROUP BY 1;
 
 # Trend Analysis
 
-SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name, MONTH(s.created_at) AS month_num,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+SELECT QUARTER(s.created_at) AS quarter,
+    MONTHNAME(s.created_at) AS month_name,
+    MONTH(s.created_at) AS month_num,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(s.website_session_id) AS conversion_rate,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
@@ -68,9 +72,11 @@ Display months trends for “gsearch” traffic source sessions, orders and prof
 # Task 2
 # Calculate and present the monthly trends for sessions, orders, and profit from the "gsearch" traffic source to demonstrate its growth.
 
-SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name,
+SELECT QUARTER(s.created_at) AS quarter,
+    MONTHNAME(s.created_at) AS month_name,
     MONTH(s.created_at) AS month_num,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
 LEFT JOIN orders AS o 
@@ -90,14 +96,18 @@ Provide a similar monthly trend for 'gserach', but this time splitting out nonbr
 # Task 3
 # Calculate a monthly trend analysis for 'gsearch,' and ensure it's separated into non-brand and brand campaigns.
 
-SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name,
+SELECT QUARTER(s.created_at) AS quarter,
+    MONTHNAME(s.created_at) AS month_name,
     MONTH(s.created_at) AS month, utm_campaign,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     COALESCE(SUM(price_usd - cogs_usd), 0) AS profit
 FROM website_sessions AS s
 LEFT JOIN orders AS o 
 ON s.website_session_id = o.website_session_id
-WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign IN ('nonbrand', 'brand')
+WHERE s.created_at < '2012-11-27'
+    AND utm_source = 'gsearch'
+    AND utm_campaign IN ('nonbrand', 'brand')
 GROUP BY 1, 2, 3, 4;
 ```
 
@@ -112,14 +122,18 @@ Explore the 'nonbrand' category and extract monthly trends categorized by device
 # Task 4
 # Calculate monthly trends for the 'nonbrand' category, segmented by device type.
 
-SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name,
+SELECT QUARTER(s.created_at) AS quarter,
+    MONTHNAME(s.created_at) AS month_name,
     MONTH(s.created_at) AS month, device_type,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     SUM(price_usd - cogs_usd) AS profit
 FROM website_sessions AS s
 LEFT JOIN orders AS o 
 ON s.website_session_id = o.website_session_id
-WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign = 'nonbrand'
+WHERE s.created_at < '2012-11-27'
+    AND utm_source = 'gsearch'
+    AND utm_campaign = 'nonbrand'
 GROUP BY 1, 2, 3, 4;
 ```
 
@@ -134,9 +148,12 @@ Present monthly trends with conversion rate for “gsearch” alongside monthly 
 # Task 5
 # Calculate monthly conversion rate trends for 'gsearch' and also generate monthly trends for each of our other channels.
 
-SELECT QUARTER(s.created_at) AS quarter, MONTHNAME(s.created_at) AS month_name,
-    MONTH(s.created_at) AS month, COALESCE(utm_source, 'direct') AS utm_source,
-    COUNT(s.website_session_id) AS sessions, COUNT(order_id) AS orders,
+SELECT QUARTER(s.created_at) AS quarter,
+    MONTHNAME(s.created_at) AS month_name,
+    MONTH(s.created_at) AS month,
+    COALESCE(utm_source, 'direct') AS utm_source,
+    COUNT(s.website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(s.website_session_id) AS conversion_rate
 FROM website_sessions AS s
 LEFT JOIN orders AS o 
@@ -158,7 +175,8 @@ This summer (June 19 - July 28), It was conducted an A/B test for our homepage. 
 # Determine profit generated for 'gsearch nonbrand' and compare it to profit from the original main homepage.
 
 WITH homepage_test AS (
-    SELECT s.website_session_id, s.created_at, order_id, (price_usd - cogs_usd) AS profit,
+    SELECT s.website_session_id, s.created_at,
+        order_id, (price_usd - cogs_usd) AS profit,
         p.created_at AS pageview_date, pageview_url
     FROM website_sessions AS s
     LEFT JOIN orders AS o 
@@ -174,7 +192,8 @@ WITH homepage_test AS (
 # SELECT website_session_id FROM homepage_test GROUP BY 1 HAVING COUNT(DISTINCT pageview_url) > 1;
 
 SELECT pageview_url,
-    COUNT(website_session_id) AS sessions, COUNT(order_id) AS orders,
+    COUNT(website_session_id) AS sessions,
+    COUNT(order_id) AS orders,
     COUNT(order_id) / COUNT(website_session_id) AS conversion_rate,
     SUM(profit) AS profit
 FROM homepage_test
@@ -201,12 +220,14 @@ For the landing page test you analyse previously, show a full conversation funne
 # Step-1. Create a source table with the necessary parameters.
 
 WITH source_table AS (
-    SELECT website_pageview_id, p.created_at, p.website_session_id, pageview_url
+    SELECT website_pageview_id, p.created_at,
+        p.website_session_id, pageview_url
     FROM website_sessions AS s
     INNER JOIN website_pageviews AS p
     ON s.website_session_id = p.website_session_id
     WHERE s.created_at BETWEEN '2012-06-19' AND '2012-07-28'
-        AND utm_source = 'gsearch' AND utm_campaign = 'nonbrand'
+        AND utm_source = 'gsearch'
+        AND utm_campaign = 'nonbrand'
 ),
 
 # Step-2. Identify sessions with an entry page = 'home' and with entry page = 'lander-1' separately.
@@ -234,8 +255,10 @@ home AS (
 
 conversion_funnel AS (
     SELECT CASE WHEN pageview_url IN ('/home', '/lander-1') THEN 'entry_page' ELSE pageview_url END AS pageview_url, 
-        COUNT(lander_sessions) AS lander_sessions, LAG(COUNT(lander_sessions)) OVER () AS previous_page_lander,
-        COUNT(home_sessions) AS home_sessions, LAG(COUNT(home_sessions)) OVER () AS previous_page_home
+        COUNT(lander_sessions) AS lander_sessions,
+        LAG(COUNT(lander_sessions)) OVER () AS previous_page_lander,
+        COUNT(home_sessions) AS home_sessions,
+        LAG(COUNT(home_sessions)) OVER () AS previous_page_home
     FROM source_table AS s
     LEFT JOIN lander_1 AS l ON s.website_session_id = l.lander_sessions
     LEFT JOIN home AS h ON s.website_session_id = h.home_sessions
@@ -245,8 +268,10 @@ conversion_funnel AS (
 # Step-4. Determine the click rate percentage.
 
 SELECT pageview_url,
-    lander_sessions, COALESCE(lander_sessions / previous_page_lander, 1) AS lander_clikrate,
-    home_sessions, COALESCE(home_sessions / previous_page_home, 1) AS home_clikrate
+    lander_sessions,
+    COALESCE(lander_sessions / previous_page_lander, 1) AS lander_clikrate,
+    home_sessions,
+    COALESCE(home_sessions / previous_page_home, 1) AS home_clikrate
 FROM conversion_funnel;
 ```
 
@@ -270,11 +295,14 @@ Show a comparison of the bounce rates for the main homepage and the bounce rate 
 # Step-1. Create a source table with the necessary parameters.
 
 WITH souce_table AS (
-    SELECT p.website_pageview_id, p.created_at, p.website_session_id, pageview_url
+    SELECT p.website_pageview_id, p.created_at,
+        p.website_session_id, pageview_url
     FROM website_sessions AS s
     INNER JOIN website_pageviews AS p
     ON s.website_session_id = p.website_session_id
-    WHERE s.created_at < '2012-11-27' AND utm_source = 'gsearch' AND utm_campaign = 'nonbrand'
+    WHERE s.created_at < '2012-11-27'
+        AND utm_source = 'gsearch'
+        AND utm_campaign = 'nonbrand'
 ),
 
 # Step-2. Identify bounce sessions for both entry pages.
@@ -289,7 +317,8 @@ bounce_sessions AS (
 # Step-3. Determine the bounce rate percentage.
 
 SELECT pageview_url,
-    COUNT(s.website_session_id) AS total_sessions, COUNT(b.website_session_id) AS bounce_sessions,
+    COUNT(s.website_session_id) AS total_sessions,
+    COUNT(b.website_session_id) AS bounce_sessions,
     COUNT(b.website_session_id) / COUNT(s.website_session_id) AS bounce_rate
 FROM souce_table AS s
 LEFT JOIN bounce_sessions AS b 
@@ -311,7 +340,9 @@ Provide the results of the A/B test for the billing page, conducted from Septemb
 # Specifically, focus on determining the 'Revenue per click' metric for the 'gsearch nonbrand'.
 
 WITH billing_test AS (
-    SELECT s.website_session_id, order_id, price_usd AS revenue, p.created_at AS pageview_date, pageview_url
+    SELECT s.website_session_id, order_id,
+        price_usd AS revenue, p.created_at AS pageview_date,
+        pageview_url
     FROM website_sessions AS s
     LEFT JOIN orders AS o 
     ON s.website_session_id = o.website_session_id
