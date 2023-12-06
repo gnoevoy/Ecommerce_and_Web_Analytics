@@ -19,8 +19,6 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 </br>
 
 ## Database Overview
-Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/FuzzyFactory_dataset.zip) that provides all the essential information for running a successful online toy store.
-
 ![database schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a2c69aae-9bb1-4e06-833d-2669de26cac9)
 
 ### Table's descriptions
