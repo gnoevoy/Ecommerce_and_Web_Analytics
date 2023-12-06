@@ -37,16 +37,10 @@ Fuzzy Factory Database: an example of comprehensive [e-commerce dataset](https:/
 ## Additional Information and Links
 
 ### Data Sources
-- [Fuzzy Factory dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/FuzzyFactory_dataset.zip)
+- [Dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/FuzzyFactory_dataset.zip)
 - [SQL queries](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/tree/main/SQL_queries)
 - [Power BI reports](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Power_BI_reports.zip)
 - [Project Repository](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics)
-
-### Contacts
-- gnoevoyandrey044@gmail.com
-- [github](https://github.com/gnoevoy)
-- [linkedin](https://www.linkedin.com/in/andreygnoevoy/)
-
 
 
 
