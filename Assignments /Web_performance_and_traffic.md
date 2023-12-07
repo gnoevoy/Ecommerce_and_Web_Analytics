@@ -1,14 +1,6 @@
 # Website Performance and Traffic Sources Analysis
 
-### Context
-Fuzzy Factory has been living for about 8 months, and my CEO have to present company performance and growth to the board next week. As a Data Analyst, I was tasked with preparing relevant metrics and graphs for presentation.
-
-### My responsibilities
-1. Based on CEO request and wishes, extract and analyse website traffic and performance data from database.
-2. Provide extracted insight to visual graphs as accessible as possible to stakeholders.
-
-### Objective
-Analyse website data and transform it into visually accessible metrics and graphs that enable the CEO to showcase the company's performance and growth to the board.
+This Power BI report presents a detailed analysis to highlights key metrics, trends, and insights essential for understanding the website's effectiveness and the impact of different traffic sources on overall performance.
 
 </br>
 
