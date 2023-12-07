@@ -17,9 +17,6 @@ Showcase the key metrics for the year, such as the total number of sessions and 
 
 Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
 
-> **Note**
-> **Time period for analysis** - since March 19 to November 11 (2012 year)
-
 ![website_performance_and_traffic_sources_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/e0d9da39-66d6-4ada-8f48-f174fc54a84e)
 
 > **Note**
