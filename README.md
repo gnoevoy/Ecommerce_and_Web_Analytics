@@ -40,13 +40,13 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 ![database_schema](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/ed7473aa-ac3a-4317-9967-7f9649b015fe)
 
 ### Table's descriptions
-- **website_sessions:** Records user sessions on the website, including details like session creation time, user references, repeat session flags, and information on the source and device type used by the visitor.
+- **Website Sessions Table:** Captures each visitor's session details, including timing, user ID, repeat visits, and device source.
 
-- **website_pageviews:** This table keeps track of user interactions with your website, storing the date and time of pageviews along with the URL of the viewed pages.
-- **orders:** The orders table stores information about customer orders, such as creation date, associated user, purchased items, total price, and COGS.
-- **order_items:** This table contains details about items within orders, including item-specific data like price, cost of goods sold (COGS), and a reference to the parent order.
-- **products:** This table holds data for various products in your e-commerce store, including their names and creation dates.
-- **order_item_refunds:** This table records refunds for individual items in orders, with information such as refund amount, creation date, and references to the specific order item and order.
+- **Website Pageviews Table:** Records each page view on the website with timestamps and URL details.
+- **Orders Table:** Stores comprehensive data on customer orders, including dates, user details, items, total price, and COGS.
+- **Order Items Table:** Details individual items in orders, including their price, COGS, and order association.
+- **Products Table:** Lists all products in the store, with information on names, descriptions, and listing dates.
+- **Order Item Refunds Table:** Tracks refunds for order items, including refund amounts, dates, and related order and item IDs.
 
 <br>
 
