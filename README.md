@@ -2,9 +2,14 @@
 
 context text here
 
-objectives
+### Objectives
 
-responsibilities
+### As a Data Analyst, I was responsible for:
+- text
+- text
+- text
+
+<br>
 
 ## [Website Performance and Traffic Sources Analysis](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Web_performance_and_traffic.md)
 ## [Customers and Products Analysis](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Assignments%20/Customers_and_products.md)
