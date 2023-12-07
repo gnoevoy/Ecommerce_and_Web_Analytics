@@ -29,10 +29,10 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 
 > *All assignments follow a consistent structure, making it convenient to review all the key elements in one place. Ensures easy understanding of each assignments context, objectives, results, and utilized Power BI report screenshots and SQL queries snippets.*
 
-</br>
+<br>
 
 ## Database Overview
-![dataset_diagram](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/a48b9aed-4ef3-47b9-891a-129286299446)
+![database_schema](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/7932e822-f3cd-47ba-855e-745d924712eb)
 
 ### Table's descriptions
 - **website_sessions:** Records user sessions on the website, including details like session creation time, user references, repeat session flags, and information on the source and device type used by the visitor.
@@ -43,7 +43,7 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 - **products:** This table holds data for various products in your e-commerce store, including their names and creation dates.
 - **order_item_refunds:** This table records refunds for individual items in orders, with information such as refund amount, creation date, and references to the specific order item and order.
 
-</br>
+<br>
 
 ## Additional Links
 - [Dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/FuzzyFactory_dataset.zip)
