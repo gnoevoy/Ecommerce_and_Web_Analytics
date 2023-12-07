@@ -1,14 +1,6 @@
 # Customers and Products Analysis
 
-### Context
-The recently appointed manager has requested an overview with key metrics of the company's products and customers for the previous and current years. As a Data Analyst, I was tasked with conducting research and presenting the insights in the form of a mini-report.
-
-### My responsibilities
-1. Extracting the necessary data from the database and conducting research on my own.
-2. Creating a visually informative report using data visualization tools.
-
-### Objective
-The goal is to provide information that will assist the new manager in gaining a better understanding of the company's operations and making informed decisions.
+This report provides a detailed understanding of customer behaviours, order patterns, and product performance, helping to refine marketing strategies and optimize product offerings.
 
 </br>
 
