@@ -4,8 +4,6 @@ This report provides a detailed understanding of customer behaviours, order patt
 
 </br>
 
-## Customers Analysis
-
 ### Comprehensive Customer Insights
 Gain a deep understanding of customer types, including their impact on sessions, orders, conversion rates, revenue, by devices and traffic sources during a specific time period.
 
