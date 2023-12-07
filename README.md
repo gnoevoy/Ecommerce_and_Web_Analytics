@@ -34,10 +34,10 @@ The aim is to increase e-commerce effectiveness through targeted data analysis a
 <br>
 
 ## Additional Links
-- [Dataset](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/FuzzyFactory_dataset.zip)
-- [SQL queries](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/tree/main/SQL_queries)
-- [Power BI reports](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Power_BI_reports.zip)
-- [Project Repository](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics)
+- [Dataset](https://github.com/gnoevoy/Ecommerce_Analysis/blob/main/Dataset.zip)
+- [SQL queries](https://github.com/gnoevoy/Ecommerce_Analysis/tree/main/SQL_queries)
+- [Power BI reports](https://github.com/gnoevoy/Ecommerce_Analysis/blob/main/Power_BI_reports.zip)
+- [Project Repository](https://github.com/gnoevoy/Ecommerce_Analysis/tree/main)
 
 
 
