@@ -4,10 +4,8 @@ This Power BI report presents a detailed analysis to highlights key metrics, tre
 
 </br>
 
-### Task 1
-Showcase the key metrics for the year, such as the total number of sessions and orders, conversion rate, and profit. It's also important to analyse the monthly trends in our growth and demonstrate tendency.
-
-Furthermore, it would be better to highlight the top traffic source from which we receive the most profit.
+### Annual Overview & Traffic Source Insights
+This report page displays key yearly metrics including total sessions, orders, conversion rate, and profit, alongside a monthly trend analysis of growth. It also emphasizes the most profitable traffic source.
 
 ![website_performance_and_traffic_sources_page-0001](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/e0d9da39-66d6-4ada-8f48-f174fc54a84e)
 
