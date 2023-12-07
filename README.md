@@ -32,7 +32,7 @@ In [the second assignment](https://github.com/gnoevoy/Ecommerce_and_Web_Analytic
 <br>
 
 ## Database Overview
-![database_schema](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/7932e822-f3cd-47ba-855e-745d924712eb)
+![database_schema](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/ed7473aa-ac3a-4317-9967-7f9649b015fe)
 
 ### Table's descriptions
 - **website_sessions:** Records user sessions on the website, including details like session creation time, user references, repeat session flags, and information on the source and device type used by the visitor.
