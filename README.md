@@ -1,13 +1,16 @@
 ![cover_img](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/7f70e16c-c10d-4705-95d4-b0905074e4af)
 
-context text here
+This project involves a comprehensive analysis of an e-commerce website, focusing on website performance, traffic sources, customer behavior, and product analysis. 
 
-### Objectives
+### Objective
+The aim is to increase e-commerce effectiveness through targeted data analysis and actionable insights.
+- Enhancing website performance and traffic source optimization.
+- Gaining insights into customer behavior and product trends.
 
 ### As a Data Analyst, I was responsible for:
-- text
-- text
-- text
+1. Collecting and refining website and customer data.
+2. Analyzing performance metrics, customer trends, and product sales.
+3. Developing clear reports and presentations for strategic guidance.
 
 <br>
 
