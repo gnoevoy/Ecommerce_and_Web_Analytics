@@ -50,8 +50,8 @@ GROUP BY 1, 2, 3;
 
 </br>
 
-### Task 2
-Display months trends for “gsearch” traffic source sessions, orders and profit, so that showcase the growth here.
+### Monthly Trends for Gsearch Traffic
+This page displays monthly trends in sessions, orders, and profit specifically for the “gsearch” traffic source, highlighting the growth patterns over the year.
 
 ![website_performance_and_traffic_sources_page-0002](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/7621e57a-6338-4880-8390-e32df8b39c17)
 
@@ -74,8 +74,8 @@ GROUP BY 1, 2, 3;
 
 </br>
 
-### Task 3
-Provide a similar monthly trend for 'gserach', but this time splitting out nonbrand and brand campaigns separately.
+### Gsearch Campaign Comparison
+Focuses on the monthly trends for 'gsearch', comparing 'nonbrand' and 'brand' campaigns separately to illustrate their distinct performance dynamics.
 
 ![website_performance_and_traffic_sources_page-0003](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/6accc932-ae17-40c5-bb2c-9b86f9b44265)
 
@@ -100,8 +100,8 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-### Task 4
-Explore the 'nonbrand' category and extract monthly trends categorized by device type.
+### Nonbrand Category by Device
+Analyzes the 'nonbrand' category from 'gsearch', breaking down the monthly trends by different device types to understand device-specific engagement.
 
 ![website_performance_and_traffic_sources_page-0004](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a9952a4c-2914-412c-b9ce-27c92c1fb8af)
 
@@ -126,8 +126,8 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-### Task 5
-Present monthly trends with conversion rate for “gsearch” alongside monthly trends for each of other channels.
+### Conversion Trends Across Channels
+Presents monthly trends of the conversion rate for “gsearch” and compares it with trends from other traffic channels to provide a comprehensive view of channel effectiveness.
 
 ![website_performance_and_traffic_sources_page-0005](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/84b68847-90f7-43bd-85cf-dc322e4c2c64)
 
@@ -151,8 +151,8 @@ GROUP BY 1, 2, 3, 4;
 
 </br>
 
-### Task 6
-This summer (June 19 - July 28), It was conducted an A/B test for our homepage. Display the test results for “gsearch nonbrand”, showing how much money was earned in comparison to the original main homepage.
+### A/B Test Results: Homepage for Gsearch Nonbrand
+Shows the outcome of the A/B test conducted on the homepage during summer, comparing the revenue earned from “gsearch nonbrand” traffic between the original and test homepages.
 
 ![website_performance_and_traffic_sources_page-0006](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/2472b2bf-3d0c-43d0-a45e-9a7d863c23b0)
 
@@ -189,8 +189,8 @@ GROUP BY 1;
 
 </br>
 
-### Task 7
-For the landing page test you analyse previously, show a full conversation funnel from each of the two pages to orders. Hint: use the same time period as in task 6.
+### Conversation Funnel from A/B Test
+Displays the full conversion funnel from both versions of the homepage tested in the A/B test, tracking user journey from landing to orders within the specified test period.
 
 ![website_performance_and_traffic_sources_page-0007](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/a94a3011-ae17-4eda-9b71-3087f83237f6)
 
@@ -264,8 +264,8 @@ FROM conversion_funnel;
 
 </br>
 
-### Task 8
-Show a comparison of the bounce rates for the main homepage and the bounce rate for 'lander-1'.
+### Bounce Rate Comparison
+Compares the bounce rates of the main homepage against 'lander-1', providing insights into visitor engagement and page effectiveness.
 
 ![website_performance_and_traffic_sources_page-0008](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/db04e9b0-2883-47a9-81ce-9a01d2d58151)
 
@@ -316,8 +316,8 @@ GROUP BY 1;
 
 </br>
 
-### Task 9
-Provide the results of the A/B test for the billing page, conducted from September 10 - November 10. The "Revenue per click" metric for 'gsearch nonbrand' is especially interesting.
+### A/B Test: Billing Page Analysis
+Provides results of the A/B test conducted on the billing page, with a focus on the “Revenue per click” metric for 'gsearch nonbrand', offering insights into the effectiveness of the billing page variations.
 
 ![website_performance_and_traffic_sources_page-0009](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/c0a251d5-412a-4b1c-8476-2d063abe25fc)
 
