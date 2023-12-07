@@ -7,9 +7,9 @@ objectives
 responsibilities
 
 
-</br>
-</br>
-</br>
+<br>
+<br>
+<br>
 
 This project focused on Fuzzy Factory, a thriving online store specializing in toy sales. As a Data Analyst, my mission was to provide valuable insights to stakeholders and help to make data-driven decisions that benefit the business based on available data.
 
