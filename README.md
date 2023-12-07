@@ -1,4 +1,4 @@
-![cover_img](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/e2c4c215-bbe6-417f-9995-3079d98ffc77)
+![cover_img](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/03f8cd11-b690-4e7a-9d43-556b764a8100)
 
 This project focused on Fuzzy Factory, a thriving online store specializing in toy sales. As a Data Analyst, my mission was to provide valuable insights to stakeholders and help to make data-driven decisions that benefit the business based on available data.
 
