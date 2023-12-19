@@ -7,7 +7,7 @@ The aim is to increase e-commerce effectiveness through targeted data analysis a
 - Enhancing website performance and traffic source optimization.
 - Gaining insights into customer behavior and product trends.
 
-### As a Data Analyst, I was responsible for:
+### As a Data Analyst, I took the following steps:
 1. Collecting and refining website and customer data.
 2. Analyzing performance metrics, customer trends, and product sales.
 3. Developing clear reports and presentations for strategic guidance.
