@@ -1,4 +1,4 @@
-![cover_img](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/cab406b1-9fda-4871-8a20-7f71252b21ff)
+![cover](https://github.com/gnoevoy/Ecommerce_Analysis/assets/43414592/3368b88c-ca1a-4427-ad02-825c9b5929e8)
 
 This project involves a comprehensive analysis of an e-commerce website, focusing on website performance, traffic sources, customer behavior, and product analysis. 
 
