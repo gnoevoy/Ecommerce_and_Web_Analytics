@@ -1,6 +1,4 @@
-USE mavenfuzzyfactory;
-
-# Used tables in this assignment
+# Used tables
 SELECT * FROM order_item_refunds;
 SELECT * FROM order_items;
 SELECT * FROM orders;
