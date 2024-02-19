@@ -1,6 +1,8 @@
 ## Users Behaviour
 For better readability, I used temporary tables to calculate metrics and then merge tables together in a final output.
 
+<br>
+
 ```sql
 -- Calculate average order value | purchase frequency | customer lifespan months | customer lifetime_value
 CREATE TEMPORARY TABLE AOV_PG_CLF (
