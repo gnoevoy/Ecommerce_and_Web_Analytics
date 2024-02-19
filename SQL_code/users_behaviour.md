@@ -241,32 +241,23 @@ CREATE TEMPORARY TABLE time_to_first_purchase (
 ![3](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/0a93234f-dcc4-43b3-8dad-ee7b3e40968d)
 
 ```sql
-
+-- final result (merge tables together)
+SELECT t1.*, t2.cart_abandonment_rate, t3.bounce_rate, t4.returning_users_rate,
+    t5.n_new_customers, t5.n_returning_customers, t5.returning_customers_rate,
+    t6.customers_retention_rate, t7.churn_rate, t8.repeat_purchase_rate,
+    t9.time_between_purchases_days,
+    t10.avg_n_sessions AS avg_sessions_to_first_purchase, t10.avg_days_to_purchase AS avg_days_to_first_purchase
+FROM AOV_PG_CLF AS t1
+LEFT JOIN cart_abandonment_rate AS t2 ON t1.month = t2.month
+LEFT JOIN bounce_rate AS t3 ON t1.month = t3.month
+LEFT JOIN returning_users_rate AS t4 ON t1.month = t4.month
+LEFT JOIN new_vs_returning_customers AS t5 ON t1.month = t5.month
+LEFT JOIN customers_retention_rate AS t6 ON t1.month = t6.month
+LEFT JOIN churn_rate AS t7 ON t1.month = t7.month
+LEFT JOIN repeat_purchase_rate AS t8 ON t1.month = t8.month
+LEFT JOIN time_between_purchases AS t9 ON t1.month = t9.month
+LEFT JOIN time_to_first_purchase AS t10ON t1.month = t10.month;
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![4](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/79cfbab9-5696-42f5-81f8-141bcd0c8445)
 
