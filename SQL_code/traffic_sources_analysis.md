@@ -33,3 +33,4 @@ SELECT MONTH(created_at) AS month,
 FROM source_table
 GROUP BY 1, 2, 3, 4, 5, 6;
 ```
+1
