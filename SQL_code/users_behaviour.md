@@ -35,8 +35,26 @@ CREATE TEMPORARY TABLE AOV_PG_CLF (
 ![1](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/871c0520-6101-45ed-b750-11edb69aa77d)
 
 ```sql
+-- Cart abandonment rate
+CREATE TEMPORARY TABLE cart_abandonment_rate ( 
 
+    WITH cart_abandonment_rate AS (
+        SELECT p.*, order_id, CASE WHEN order_id IS NOT NULL THEN 1 ELSE 0 END AS is_completed
+        FROM website_pageviews_2014 AS p
+        LEFT JOIN orders_2014 AS o
+            ON p.website_session_id = o.website_session_id
+        WHERE pageview_url = "/cart"
+    )
+
+    SELECT MONTH(created_at) AS month,
+        ROUND(1 - ( COUNT(CASE WHEN is_completed = 1 THEN 1 ELSE NULL END) / COUNT(is_completed) ), 2) AS cart_abandonment_rate
+    FROM cart_abandonment_rate
+    GROUP BY 1
+    
+);
 ```
+
+![2](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/7ae0a4ca-0190-4f13-81ed-29906992e838)
 
 
 ```sql
