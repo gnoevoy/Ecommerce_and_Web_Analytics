@@ -160,15 +160,89 @@ CREATE TEMPORARY TABLE churn_rate (
 
 );
 ```
+
 ![7](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/531ccaef-c90f-4729-891b-cc3b31f10948)
 
+```sql
+-- Repeat purchase rate (RPR)
+CREATE TEMPORARY TABLE repeat_purchase_rate (
 
+    SELECT month, COUNT(CASE WHEN is_repeat = 1 THEN 1 ELSE NULL END) / COUNT(DISTINCT user_id) AS repeat_purchase_rate
+    FROM (
+        SELECT MONTH(created_at) AS month, user_id, COUNT(order_id) AS n_orders,
+            CASE WHEN COUNT(order_id) > 1 THEN 1 ELSE 0 END AS is_repeat
+        FROM orders_2014
+        GROUP BY 1, 2
+    ) AS t1
+    GROUP BY 1
 
+);
+```
 
+![1](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/ac51ecb0-b81b-4eb7-9be9-6ae116fcbad8)
 
+```sql
+-- Time between purchases (in days)
+CREATE TEMPORARY TABLE time_between_purchases (
 
+    SELECT MONTH(created_at) AS month, ROUND( AVG(DATEDIFF(created_at, previos_purchase_date)), 2) AS time_between_purchases_days
+    FROM (
+        SELECT created_at, user_id, LAG(created_at) OVER (PARTITION BY user_id ORDER BY created_at ASC) AS previos_purchase_date
+        FROM orders_2014
+        WHERE user_id IN (SELECT user_id FROM orders_2014 GROUP BY 1 HAVING COUNT(order_id) > 1)
+    ) AS t1
+    GROUP BY 1
+    ORDER BY 1
 
+);
+```
 
+![2](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/f6ea3315-56af-49d7-81b4-78c056391ba7)
+
+```sql
+-- average time to first purchase (in days) and average number of sessions
+CREATE TEMPORARY TABLE time_to_first_purchase (
+
+    WITH first_orders AS (
+        SELECT *
+        FROM (
+            SELECT website_session_id, user_id, created_at, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created_at) AS rnk
+            FROM orders_2014
+        ) AS t1
+        WHERE rnk = 1
+    ),
+
+    all_user_sessions AS (
+        SELECT s.website_session_id AS all_sessions, s.created_at AS session_time,
+            o.website_session_id AS order_session, o.created_at AS order_time, o.user_id
+        FROM website_sessions_2014 AS s
+        INNER JOIN first_orders AS o 
+            ON s.user_id = o.user_id
+        WHERE o.website_session_id >= s.website_session_id
+    ),
+
+    combined_table AS (
+        SELECT MONTH(order_time) AS month, user_id, COUNT(all_sessions) AS n_sessions, MAX(time_diff_days) AS time_between_purchase_days
+        FROM (
+            SELECT *, DATEDIFF( MAX(order_time) OVER (PARTITION BY user_id), MIN(session_time) OVER (PARTITION BY user_id) ) AS time_diff_days
+            FROM all_user_sessions
+            WHERE user_id IN (SELECT user_id FROM all_user_sessions GROUP BY 1 HAVING COUNT(DISTINCT all_sessions) > 1)
+        ) AS t1
+        GROUP BY 1, 2
+    )
+
+    SELECT month, ROUND( AVG(n_sessions), 2) AS avg_n_sessions, ROUND( AVG(time_between_purchase_days), 2) AS avg_days_to_purchase
+    FROM combined_table
+    GROUP BY 1
+
+);
+```
+
+![3](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/0a93234f-dcc4-43b3-8dad-ee7b3e40968d)
+
+```sql
+
+```
 
 
 
