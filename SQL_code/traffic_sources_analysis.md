@@ -1,5 +1,4 @@
-
-![1](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/824251bc-29f4-40d5-8d2f-3f6661697bc1)
+# Traffic Sources Analysis
 
 ```sql
 -- define new and returning visitors
@@ -33,5 +32,5 @@ SELECT MONTH(created_at) AS month,
 FROM source_table
 GROUP BY 1, 2, 3, 4, 5, 6;
 ```
-1
-321312
+
+![1](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/824251bc-29f4-40d5-8d2f-3f6661697bc1)
