@@ -48,9 +48,7 @@ The aim is to increase e-commerce effectiveness through targeted data analysis a
 5. database overview
 
 
-![Uploading cover_img.jpg…]()
-
-
+![cover_img](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/d0259a80-1545-48e7-8669-d6fd6344239f)
 
 
 
