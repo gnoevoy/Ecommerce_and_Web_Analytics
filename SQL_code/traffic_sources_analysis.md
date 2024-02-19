@@ -1,4 +1,4 @@
-# Traffic Sources Analysis
+## Traffic Sources Analysis
 
 ```sql
 -- define new and returning visitors
