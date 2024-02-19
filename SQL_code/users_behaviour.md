@@ -1,7 +1,6 @@
 ## Users Behaviour
 For better readability, I used temporary tables to calculate metrics and then merge tables together in a final output.
 
-
 ```sql
 -- Calculate average order value | purchase frequency | customer lifespan months | customer lifetime_value
 CREATE TEMPORARY TABLE AOV_PG_CLF (
@@ -33,7 +32,7 @@ CREATE TEMPORARY TABLE AOV_PG_CLF (
 );
 ```
 
-
+![1](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/871c0520-6101-45ed-b750-11edb69aa77d)
 
 ```sql
 
