@@ -26,10 +26,10 @@ SELECT MONTH(created_at) AS month,
 	CASE WHEN is_new_visit = 1 THEN "new" ELSE "returning" END AS user_type,
 	COALESCE(utm_source, "organic") AS traffic_source, utm_campaign, utm_content, device_type,
 	COUNT(website_session_id) AS n_sessions,
-    COUNT(order_id) AS n_orders,
+	COUNT(order_id) AS n_orders,
 	COUNT(order_id) / COUNT(website_session_id) AS CVR,
-    COUNT(CASE WHEN is_new_visit = 1 THEN "new" ELSE "returning" END) AS n_visits,
-    SUM(price_usd) AS revenue
+	COUNT(CASE WHEN is_new_visit = 1 THEN "new" ELSE "returning" END) AS n_visits,
+	SUM(price_usd) AS revenue
 FROM source_table
 GROUP BY 1, 2, 3, 4, 5, 6;
 ```
