@@ -40,9 +40,15 @@ The aim is to increase e-commerce effectiveness through targeted data analysis a
 - [Project Repository](https://github.com/gnoevoy/Ecommerce_Analysis/tree/main)
 
 
+-- 
+1. cover img
+2. text description (main goal and message)
+3. project stages (context | sql code | power bi)
+4. links
+5. database overview
 
 
-
+![Uploading cover_img.jpg…]()
 
 
 
