@@ -10,9 +10,9 @@ CREATE VIEW website_performance AS (
     WITH user_type AS (
         SELECT *, CASE WHEN created_at = first_entry THEN "new" ELSE "returning" END AS user_type
         FROM (
-        SELECT created_at, website_session_id, MIN(created_at) OVER (PARTITION BY user_id ORDER BY user_id, created_at ASC) AS first_entry
-        FROM website_sessions
-    ) AS t1
+            SELECT created_at, website_session_id, MIN(created_at) OVER (PARTITION BY user_id ORDER BY user_id, created_at ASC) AS first_entry
+            FROM website_sessions
+        ) AS t1
     ),
 
     sessions AS (
