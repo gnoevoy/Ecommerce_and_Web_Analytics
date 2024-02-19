@@ -1,5 +1,5 @@
 ## Website Performance
-In the beginning, there was created a view table to reduce repetitive code.
+For simplicity, there was created a view table to reduce repetitive code.
 
 <br>
 
