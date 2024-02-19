@@ -4,11 +4,14 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 
 <br>
 
-project stages
+### Project Stages:
+1. 1
+2. 2
+3. 3
 
 <br>
 
-links
+
 
 <br>
 
