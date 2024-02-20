@@ -4,6 +4,12 @@ After conducting the initial analysis and extracting insights from the database,
 
 Source file: [power_bi_report.pbix](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/power_bi_report.pbix)
 
+### **Understanding Key Metrics**
+| Column | Description |
+| --- | --- |
+| `city` | The name of the city where the property is located |
+| `type` | Type of the building |
+
 <br>
 
 ## Traffic Sources Analysis
