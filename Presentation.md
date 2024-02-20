@@ -4,6 +4,8 @@ After conducting the initial analysis and extracting insights from the database,
 
 Source file: [power_bi_report.pbix](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/power_bi_report.pbix)
 
+<br>
+
 ### **Understanding Key Metrics**
 | Column | Description |
 | --- | --- |
