@@ -7,7 +7,7 @@ Source file: [power_bi_report.pbix](https://github.com/gnoevoy/Ecommerce_and_Web
 <br>
 
 ### **Understanding Key Metrics**
-| Column | Description |
+| Metric | Description |
 | --- | --- |
 | `Conversion Rate` | The percentage of website visitors who take a desired action (such as making a purchase) out of the total number of visitors |
 | `Average Order Value (AOV):` | The average amount spent by a customer in a single transaction |
