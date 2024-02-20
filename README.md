@@ -9,7 +9,7 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 2. Write SQL queries to extract data and calculate metrics.
 3. Create Power BI reports to visualize and present the analysis findings.
 
-*Great article to become familiar with common e-commerce metrics: [](https://www.helpscout.com/blog/ecommerce-metrics-kpis/)*
+*Great article to become familiar with common e-commerce metrics: [30 Key Ecommerce KPIs & Performance Metrics to Track](https://www.helpscout.com/blog/ecommerce-metrics-kpis/)*
 
 <br>
 
