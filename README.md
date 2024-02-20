@@ -13,12 +13,13 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 
 <br>
 
+## **Project files:**
 ### [Presentation](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/Presentation.md)
 ### [SQL code](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/tree/main/SQL_code)
 
 <br>
 
-## Database Overview
+## **Database Overview**
 ![database_schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/e44ed531-0d8c-40f2-8179-ec47a2b71e0f)
 
 | Table | Description |
