@@ -5,9 +5,11 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 <br>
 
 ### Project Stages:
-1. 1
-2. 2
-3. 3
+1. Understand the business specifics and identify key metrics.
+2. Write SQL queries to extract data and calculate metrics.
+3. Create Power BI reports to visualize and present the analysis findings.
+
+*Great article to become familiar with common e-commerce metrics: [](https://www.helpscout.com/blog/ecommerce-metrics-kpis/)*
 
 <br>
 
@@ -19,7 +21,14 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 ## Database Overview
 ![database_schema](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/assets/43414592/e44ed531-0d8c-40f2-8179-ec47a2b71e0f)
 
-tables description
+| Table | Description |
+| --- | --- |
+| `website_sessions` | txt |
+| `website_pageviews` | txt |
+| `products` | txt |
+| `orders` | txt |
+| `order_items` | txt |
+| `order_item_refunds` | txt |
 
 
 
