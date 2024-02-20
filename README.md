@@ -24,12 +24,12 @@ Comprehensive analysis of e-commerce business, with key metrics across various d
 
 | Table | Description |
 | --- | --- |
-| `website_sessions` | txt |
-| `website_pageviews` | txt |
-| `products` | txt |
-| `orders` | txt |
-| `order_items` | txt |
-| `order_item_refunds` | txt |
+| `website_sessions` | Logs user sessions on the website, capturing user IDs and various session attributes |
+| `website_pageviews` | Records individual page views on the website, including session and URL details |
+| `products` | Stores details of products available for purchase, including their names and creation dates |
+| `orders` | Contains information about customer orders, including session, user ID, and purchased items |
+| `order_items` | Holds data on specific items within a customer’s order, detailing product IDs and pricing information |
+| `order_item_refunds` | Tracks refunds issued for order items, including refund amounts and associated order IDs |
 
 
 
