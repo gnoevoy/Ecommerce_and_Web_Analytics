@@ -1,6 +1,6 @@
 # **Power BI Report**
 
-some text
+After conducting the initial analysis and extracting insights from the database, tables with calculated metrics were uploaded to Power BI to create interactive reports.
 
 Source file: [power_bi_report.pbix](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/power_bi_report.pbix)
 
