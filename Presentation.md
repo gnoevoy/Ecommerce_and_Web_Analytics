@@ -1,6 +1,10 @@
-1. general overview - final output = power bi link
+# **Power BI Report**
 
-2. header | small description | metrics | power bi file | calculated table's in sql.
+some text
+
+Source file: [power_bi_report.pbix](https://github.com/gnoevoy/Ecommerce_and_Web_Analytics/blob/main/power_bi_report.pbix)
+
+<br>
 
 ## Traffic Sources Analysis
 
